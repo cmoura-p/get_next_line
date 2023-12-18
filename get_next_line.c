@@ -6,7 +6,7 @@
 /*   By: cmoura-p <cmoura-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 15:27:30 by cmoura-p          #+#    #+#             */
-/*   Updated: 2023/12/10 15:56:06 by cmoura-p         ###   ########.fr       */
+/*   Updated: 2023/12/18 15:10:06 by cmoura-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,14 +57,14 @@ char	*get_next_line(int fd)
 	}
 	return (line);
 }
- 
+/* 
 int	main(void)
 {
 	int		fd;
 	int		flag;
 	char	*line;
 	flag = 1;
-	fd = open("41_with_nl", O_RDONLY);
+	fd = open("getnl0.txt", O_RDONLY);
 	while (flag)
 	{
 		line = get_next_line(fd);
@@ -79,3 +79,4 @@ int	main(void)
 	close(fd);
 	return (0);
 }
+ */
